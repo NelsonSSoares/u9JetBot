@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comandos</title>
+  <link rel="icon" href="/SiteJET/Jet.png">
+  <link rel="stylesheet" href="commands.css">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body onload="loaderFunction()">
+
+  <div id="loader">
+    <div class="loading">
+      <span></span>
+    </div>
+  </div>
+
+
+  <div id="page">
+    <nav>
+      <div class="logo noselect">
+        <img class="noselect" src="/SiteJET/Jet.png"> JetBOT
+      </div>
+
+      <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu noselect">
+        <li><a href="../index.html"><i class="fas fa-home"></i> Início</a></li>
+        <li><a class="active" href="#"><i class="far fa-list-alt"></i> Comandos</a></li>
+        <li><a href="https://discord.gg/97CHV3g8" target="_none"><i class="fas fa-headset"></i> Suporte</a></li>
+        <li><a class="invite noselect"
+            href="https://discord.com/api/oauth2/authorize?client_id=1012869408445714494&permissions=8&scope=applications.commands%20bot"
+            target="_none"><i class="fab fa-discord"></i> Me adicione!</a></li>
+        <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+      </ul>
+    </nav>
+
+
+
+    <div class="container clear noselect">
+      <div class="row wrapper">
+
+        <span class="collapse" onclick="closeSidePanel()"><i class="fas fa-caret-left"></i></span>
+        <span class="expand" onclick="openSidePanel()"><i class="fas fa-caret-right"></i></span>
+
+        <div class="sidepanel">
+          <div class="divider left"></div>
+
+          <a class="title" href="#introducão">Introdução</a>
+
+          <a class="section" href="#sobre">Sobre o BOT</a>
+          <a class="section" href="#tecnologias">Tecnologias</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#iniciando">Começando</a>
+
+          <a class="section" href="#ajudabot">Noções básicas</a>
+          <a class="section" href="#addbot">Adicionando o BOT</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#Comandos">Comandos</a>
+
+          <a class="section" href="#Comandos">Comandos</a>
+          <a class="section" href="#config">Configurações</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#Colabore">Colabore</a>
+
+          <div class="space double"></div>
+
+        </div>
+
+        <div class="right-col">
+          <h1 id="introducão">Introdução</h1>
+
+          <p id="sobre">Bot desenvolvido pra atender usuários do servidor de dicord podendo atender diversas áreas como
+            lojas no próprio Discord</p>
+
+          <h2>Sobre o bot</h2>
+
+          <p id="tecnologias">Bot desenvolvido pra um projeto da universidade no segundo semestre do ano de 2022</p>
+
+          <h2>Tecnologias</h2>
+
+          <p id="iniciando">Bot Desenvolvido utilizando a biblioteca do Discord.js<br><br>
+            Utilizamos o próprio discord como banco de dados pra armazenar os tickets fechados e até mesmo as próprias
+            imagens e conteúdo utilizado pelo BOT.</p>
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1>Começando</h1>
+
+          <p id="ajudabot">
+            Para começar com o nosso bot é bastante fácil e fizemos o nosso melhor para torná-lo mais simples para
+            vocês.</p>
+
+          <h1>Noções básicas</h1>
+
+          <p>Aqui no site temos as listas de todos comandos disponíveis.<br>
+            Você também tem a opção de obter ajuda em todos os comandos do bot diretamente através do discord com o uso
+            do
+            comando de ajuda do bot.</p>
+
+          <p id="addbot"><b>Importante:</b> Para utilizar o bot você deve estar ciente dos termos de uso .<br> Use <span
+              class="codeBlock">/termos </span> para mais informações.</p>
+
+
+          <h2>Adicionando o BOT</h2>
+
+          <p id="Comandos">Para adicionar o bot no seu Servidor! <a
+              href="https://discord.com/api/oauth2/authorize?client_id=1012869408445714494&permissions=8&scope=applications.commands%20bot"
+              target="_none">clique aqui.</a><br><br>Você não consegue coloca-lo em servidores no qual você não tem
+            permissão de administrador.</p>
+
+
+          <div id="anime" class="divider" style="width:24%; margin:30px 0;"></div>
+
+
+          <h1>Comandos</h1>
+          <div>Sintaxe:
+            <ul>
+              <li><span class="codeBlock">
+                  /
+                </span> : Nosso BOT já utiliza os slash commands</li>
+            </ul>
+          </div>
+
+          <h2>Comandos</h2>
+          <ul>
+            <li>Sintaxe</li>
+            <div>
+              Todos os comandos aqui têm a mesma sintaxe : <span class="codeBlock">/< comando> </span>
+              <br>
+              Você pode usar <span class="codeBlock">/< ajuda> </span> para descobrir os comandos.
+              <br><br>
+            </div>
+            <li>Administração</li>
+            <div> Comandos para administração do servidor.</div>
+            <div>
+              <ul>
+                <li><span class="codeBlock">ticket</span></li>
+                <li><span class="codeBlock">anunciar</span></li>
+                <li><span class="codeBlock">ban</span></li>
+                <li><span class="codeBlock">unban</span></li>
+                <li><span class="codeBlock">verificar</span></li>
+                <li><span class="codeBlock">limpar</span></li>
+                <li><span class="codeBlock">sorteio</span></li>
+                <li><span class="codeBlock">fatura</span></li>
+                <li><span class="codeBlock">slowmode</span></li>
+                <li><span class="codeBlock">anexar</span></li>
+                <li><span class="codeBlock">status</span></li>
+              </ul>
+              <br>
+            </div>
+            <li>Utilidades</li>
+            <div> Comandos de utilidade do servidor.</div>
+            <ul>
+              <li><span class="codeBlock">ajuda</span></li>
+              <li><span class="codeBlock">ping</span></li>
+              <li><span class="codeBlock">botinfo</span></li>
+              <li><span class="codeBlock">avaliar</span></li>
+            </ul>
+            <br>
+            <li>Desenvolvimento</li>
+            <div> Comandos em desenvolvimento para ser liberados para uso.</div>
+            <div>
+              <ul>
+                <li><span class="codeBlock">pix</span></li>
+              </ul>
+
+              <h2 id="config">Configurações</h2>
+              <ul>
+                <li class="collapsible">Comandos habilitados</li>
+                <div class="cmdCollapse">
+                  <h3>Comandos em funcionamento.</h3> <br>
+                  Comando pra abrir o paínel de ajuda: <span class="codeBlock">/ajuda</span> <br>
+                  Comando pra abrir ticket: <span class="codeBlock">/ticket</span> <br>
+                  Comando para fazer a avaliação do atendimento: <span class="codeBlock">/avaliar</span> <br>
+                  Comando pra ver informações do BOT: <span class="codeBlock">/botinfo</span> <br>
+                  Comando pra ver o ping do BOT: <span class="codeBlock">/ping</span> <br>
+                  Comando pra limpar o chat: <span class="codeBlock">/limpar</span> <br>
+                  Comando pra criar cargo por botão: <span class="codeBlock">/verificar</span> <br>
+                  Comando pra Banir algum usuário: <span class="codeBlock">/ban</span> <br>
+                  Comando pra Desbanir algum usuário: <span class="codeBlock">/unban</span> <br>
+                  Comando pra anunciar por embeds: <span class="codeBlock">/anunciar</span> <br>
+                  Comando para enviar QRCODE de pagamento : <span class="codeBlock">/fatura</span> <br>
+                  Comando para realizar um sorteio no servidor! : <span class="codeBlock">/sorteio</span> <br>
+                  Comando para deixar o chat em slowmode : <span class="codeBlock">/slowmode</span> <br>
+                  Comando para enviar uma imagem no canal selecionado : <span class="codeBlock">/anexar</span> <br>
+                  Comando para modificar o status e a descrição do bot : <span class="codeBlock">/status</span> <br>
+                  <br>
+                </div>
+
+                <li class="collapsible">Comandos futuros</li>
+                <div class="cmdCollapse">
+                  <h3>Comandos em desenvolvimento.</h3> <br>
+                  Comando para ver lista de vendas : <span class="codeBlock">/vendas</span> <br>
+                  <br>
+                </div>
+              </ul>
+
+              <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+              <h1 id="Colabore">Colabore</h1>
+
+              <p id="iniciando">Uma forma de contribuir com o BOT pro desenvolvimento continuar<br><br>
+                Contribuindo você vai ter a TAG colaborador do BOT e desbloquear diversar melhorias Visuais.</p>
+
+              <ul>
+
+                <li>Status : Em desenvolvimento</li>
+                <li>Sobre : Melhorias cosméticas </li>
+                <li>Comando : /colaborador </li>
+                <!-- <li></li> -->
+              </ul>
+              <div class="doublespace"></div>
+              <div class="divider" style="width:24%; margin:30px 0;"></div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="../index.js"></script>
+    <script src="./commands.js"></script>
+</body>
+
+</html>

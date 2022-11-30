@@ -1,0 +1,21 @@
+{
+  "name": "jetbot1.0-slash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "discord-logs": "^2.2.1",
+    "discord.js": "^14.6.0",
+    "fs": "^0.0.1-security",
+    "ms": "^2.1.3",
+    "pretty-ms": "^8.0.0",
+    "quick.db": "^9.0.6",
+    "quickdb": "^1.0.5"
+  }
+}
